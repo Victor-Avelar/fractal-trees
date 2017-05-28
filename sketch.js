@@ -1,8 +1,7 @@
 var angle = Math.PI / 4;
 var slider;
 function setup(){
-    var canvas = createCanvas(800, 800);
-    canvas.parent('canvas');
+    canvas = createCanvas(800, 800);
     
     slider = createSlider(0, Math.PI * 2, Math.PI*2 - 0.2, 0.005);
     slider2 = createSlider(0, 10, 1, 0.5);
